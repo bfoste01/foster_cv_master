@@ -1,0 +1,225 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+% \usepackage[T1]{fontenc}
+% \usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Brandon Foster}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{http://ase.tufts.edu/epcshd/}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {human development, early childhood policy, statistics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  Doctoral Student \\
+  \href{http://ase.tufts.edu/epcshd/}{Tufts University} \\
+  Eliot-Pearson \\
+  Department of Child Study \& \\ 
+  Human Development \\
+  Medford, MA
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: & (781) 228-9380 \\
+    Email: & \href{mailto:brandon.foster@tufts.edu}{\tt brandon.foster@tufts.edu} \\
+    Homepage: & \href{http://ase.tufts.edu/epcshd/}{\tt http://ase.tufts.edu/epcshd/} \\
+  \end{tabular}
+\end{minipage}
+
+\section*{Education}
+
+\begin{itemize}
+  \item B.A. Psychology, University of Southern Maine, 2010.
+
+  \item M.A. Child Study and Human Development, Tufts University, 2013.
+
+  \item Ph.D. Child Study and Human Development, Tufts University, XPCD 2016.
+\end{itemize}
+
+\section*{Key Skills}
+
+\begin{itemize}
+\item Statistical Paradigms: Structural Equation Modeling, Multilevel Modeling, Latent Mixture Models, Cluster Techniques, IRT Models, Rasch Models, Bayesian Inference, Econometrics \& Machine Learning Techniques.
+\item Computer Languages: R, MPlus, Lisrel, Stata, SAS, SPSS, WinSteps, Atlas.ti, STAN, WINBUGS, ArcGIS, Python, Ruby, JavaScript, HTML, CSS, Latex \& Markdown. 
+\end{itemize}
+
+
+\section*{Research Experiences}
+
+\subsection*{Dr. Christine McWayne Research Lab, Tufts Univeristy, 2012--Present}
+\textbf{Somerville Integrated Data System for Children}
+\begin{itemize}
+\item \textbf{Description}: The goal of this project is to take a partnership approach with City agencies and non-profits to build a City-wide data initiative. The initiative is to integrate routinely collected administrative data from these agencies in order to help address policy concerns in the City in a more informed way, and to add to the empirical work on the utility of integrated data systems for research purposes. 
+\item \textbf{Responsibilities}: Facilitated legal agreements for data sharing partnership outreach initiatives; In charge of all technical aspects of the project including: data collection, munging, organizing, probabilistically linking datasets with no common identifier \& DB system creation and maintenance; Led and/or co-led large team meetings with our partners; Established project goals and objectives on a month-to-month basis; Conceptualized and executed large scale data analysis; Analyzed achievement data and other community-specific service data, as well as geo-spatial analyses of neighborhood contexts; Helped seek out funding opportunities, and assisted in the writing of federal grants and LOIs for foundations; Wrote progress reports, policy documents and prepared official presentations. 
+
+\end{itemize}
+
+\textbf{Analysis of the Head Start Family and Child Experiences Survey (FACES)}
+\begin{itemize}
+\item \textbf{Description}: This project uses a risks and protective factors frame to examine children's approaches to learning. In particular, the focus of analyses has been to examine the development of approaches to learning, its longitudinal relationship with global measures of cognitive skills, and how it might function as a protective factor against constructs like problem behavior. 
+\item \textbf{Responsibilities}: Developed hypotheses and research designs. This led into extensive statistical analysis of multilevel longitudinal data, which included: latent mixture models, growth curve models, panel models, mediation and moderation models and SEM models with stochastic differential equations. 
+\end{itemize}
+
+\textbf{The Readiness Through Integration of Science and Engineering Project (RISE)}
+\begin{itemize}
+\item \textbf{Description}: The RISE project is focused on developing culturally relevant STE curricula for DLL preschoolers in Head Start.  
+\item \textbf{Responsibilities}: Managed a team of graduate students with qualitative analyses of classroom observational data; Assisted in ongoing analyses to help create a theoretical framework for co-construction using a Grounded Theory Approach; Assisted in writing conference proposals. 
+\end{itemize}
+
+\textbf{Parental Engagement of Families from Latino Backgrounds}
+\begin{itemize}
+\item \textbf{Description}: To develop culturally relevant measures of Latino family involvement. 
+\item \textbf{Responsibilities}: Created the user's manual for the 43-item measure; Ran validation analyses of the measure; Multi-group invariance testing and examined differential item functioning (i.e., Rasch Models). 
+\end{itemize}
+
+\subsection*{YouthBEAT Research, Dr. Kathleen Camara, Tufts University, 2011--2012}
+\begin{itemize}
+\item \textbf{Description}: A project focused on the role of arts education in positive youth development. 
+\item \textbf{Responsibilities}: Managed a large multi-state qualitative and quantitative dataset. Assisted in statistical analyses using cluster techniques.
+\end{itemize} 
+
+\subsection*{Dr. Bruce Thompson's Developmental Research, University of Southern Maine, 2009--2011}
+\begin{itemize}
+\item \textbf{Description}: Work in this lab focused on the development of metacognition. In particular, the role of metacognitive language in parent-child interactions, and the impact of SES on these interactions. 
+\item \textbf{Responsibilities}: Managed a small independent project examining children's language acquisition and family socioeconomic status; Networked with Head Start centers to establish research bases; Collected and analyzed assessment data and coded qualitative videos.
+\end{itemize} 
+
+\section*{Other Professional Experiences}
+
+\subsection*{Statistical Consultant, 2012--Present}
+\begin{itemize}
+\item I have several experiences providing statistical consultation to graduate students working on Master's theses and dissertations. These students have come from a variety of disciplines within the Social Sciences. 
+\end{itemize} 
+
+\section*{Publications}
+
+\begin{itemize}
+
+\item Foster, B. (In Preparation). Advances In the Use of Continuous Time Modeling with Discrete Time Data in Applied Research: An Examination of Differences Between EDM-SEM and Traditional Cross-Lagged Models in Examining the Relationship Between Children's Approaches to Learning and Cognitive Skills.
+
+\item Foster, B., \& McWayne, C.M. (In Preparation). Approaches to Learning as a Protective Factor for Head Start Children: A Latent Cross-Lagged Moderation Model.
+
+\item Foster, B., \& McWayne, C.M. (In Preparation). A Dynamic Approach to Understanding the Cross-Time Relationship Between Head Start Children's Approaches to Learning and Cognitive Skills: An Approximate Discrete Time Structural Equation Model. 
+
+\item Foster, B. (In Preparation). Relational Community Coalition Collaborations. 
+
+\item McWayne, C.M., Melzi, G., \& Foster, B. (2014). User Manual for {\it Parental Engagement of Families from Latino
+Backgrounds} (PEFL- English) and {\it Participación Educativa de
+Familias Latinas} (PEFL- Spanish) 43-item Parent Self-report Measure.
+
+\item Foster, B. (2014). A Longitudinal Study of the Relationship between Children's Lexical Acquisition, Socioeconomic Status and Classroom Environment. Tufts University, 2013. Ann Arbor: ProQuest. Web.
+
+Thompson, R. B., \& Foster, B. (2013). Socioeconomic Status and Parent-–Child Relationships Predict Metacognitive Questions to Preschoolers. {\it Journal of Psycholinguistic Research}, \emph{43}(4): 315--33.
+
+\end{itemize}
+
+\section*{Conferences}
+
+\begin{itemize}
+
+\item Foster, B. (2014). Open Source Tools for Applied Social Science Research. Talk presented at the Social Science Librarians Bootcamp at the Innovation Lab at Harvard University, Cambridge, MA. 
+
+\item Foster, B. (2013). The Longitudinal Relationship Between Socioeconomic Status, Classroom Environment and Children’s Lexical Acquisition. Talk presented at the Cross University Collaborative Mentor Conference in New York, NY. 
+
+\item Thompson, R.B., \& Foster, B. (2011). Socioeconomic Status and Parent--Child Relationships Predict Metacognitive Scaffolding Questions to Preschoolers. Poster presented at the Society for Research in Child Development biannual conference in Montreal. 
+
+\item Foster, B., \& Thompson, R.B. (2010). The Influence of  Socioeconomic Factors on Parent/Child Mental State Discourse. Poster presented to the Eastern Psychological Association Annual Conference in Brooklyn, NY.
+
+\item Foster, B., \& Thompson, R.B. (2009). The Relationship Between SES and Parent--Child Metacognitive Interactions. Poster presented to the Maine Psychological Association Annual Conference in Augusta, ME.
+
+\end{itemize}
+
+\section*{Additional Professional Activities}
+
+\begin{itemize}
+
+\item Participated in reviews for prominent journals in the field of developmental science. 
+\item Active in Meetups across Greater Boston that are focused on: Data science, open-source research and the role of data in public policy.
+
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    %\href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
+
